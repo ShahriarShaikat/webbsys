@@ -1,32 +1,155 @@
 /* Normal desktop :1200px. */
 @media (min-width: 1200px) and (max-width: 1500px) {
-
-
 }
-
 
 /* Normal desktop :992px. */
 @media (min-width: 992px) and (max-width: 1200px) {
-
-
 }
 
- 
 /* Tablet desktop :768px. */
 @media (min-width: 768px) and (max-width: 991px) {
-
-
 }
 
- 
 /* small mobile :320px. */
 @media (max-width: 767px) {
-
- 
 }
- 
+
 /* Large Mobile :480px. */
 @media only screen and (min-width: 480px) and (max-width: 767px) {
-.container {width:450px}
- 
+  .container {
+    width: 450px;
+  }
+}
+
+@media only screen and (max-width: 475px) {
+  footer ul.menu {
+    flex-direction: column;
+    padding: 30px 0;
+    padding-bottom: unset;
+  }
+  .hero-section {
+    padding: 20px 0px;
+    min-height: unset;
+    display: flex;
+    float: unset;
+  }
+  .hero-content-container {
+    width: 100%;
+    max-width: 100%;
+  }
+  .hero-content-subtitle {
+    font-size: 20px;
+  }
+  .hero-content-container p {
+    line-height: unset;
+  }
+  .blog {
+    width: 100%;
+    margin-left: unset;
+  }
+  .testimonial {
+    padding: 20px 15px;
+    height: auto;
+  }
+  .testimonial p {
+    font-size: 14px;
+    text-align: justify;
+  }
+  .section-title {
+    text-align: center;
+  }
+  footer .menu li {
+    text-align: center;
+    border-bottom: 1px solid #c5c5c5;
+    margin-bottom: 5px;
+  }
+  .footer-second-menu {
+    padding: 30px 0;
+    flex-direction: column;
+  }
+  .footer-second-menu ul {
+    width: 100%;
+    flex-direction: column;
+    text-align: center;
+  }
+  .websys-primary-btn {
+    margin: 10px auto;
+  }
+  .footer-second-menu ul li {
+    border-bottom: 1px solid #c5c5c5;
+  }
+  .new-footer-soical-menu {
+    justify-content: center;
+  }
+  footer {
+    padding: 0;
+  }
+  .hero-content {
+    min-height: unset;
+  }
+  .about-websys-title {
+    font-size: 18px;
+  }
+  .about-websys-dsc p {
+    font-size: 17px;
+  }
+  .about-websys,
+  .service-section,
+  .get-in-touch,
+  .blog-section {
+    padding: 50px 0;
+  }
+  .hero-content-title {
+    margin: 0 0 15px;
+    font-size: 30px;
+  }
+  .form-wrap {
+    padding: 3px 12px 3px;
+  }
+  .menu-area {
+    justify-content: flex-start;
+  }
+  .logo {
+    width: 70%;
+  }
+  .menu {
+    width: 30%;
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+  }
+  .menu svg {
+    display: block;
+    height: 27px;
+    width: 27px;
+  }
+  .menu-area .menu nav {
+    position: absolute;
+    top: -26px;
+    right: -16px;
+    background-color: #490c2b;
+    width: 0;
+    padding: 20px 0px;
+  }
+  .menu-area .menu nav ul {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .menu-area .menu nav ul li {
+    margin: 0;
+  }
+  .menu-area .menu nav ul li a {
+    color: white;
+    padding: 25px 10px;
+    margin: 0;
+  }
+  .mobile_sidebar_close {
+    display: block;
+    width: 100%;
+  }
+  .mobile_sidebar_close i {
+    color: white;
+    margin-left: 20px;
+  }
 }

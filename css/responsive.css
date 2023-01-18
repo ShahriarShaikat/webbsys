@@ -152,4 +152,7 @@
     color: white;
     margin-left: 20px;
   }
+  .testimonial-name {
+    font-size: 18px;
+  }
 }

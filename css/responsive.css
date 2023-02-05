@@ -163,4 +163,200 @@
     font-size: 18px;
     margin-bottom: 40px;
   }
+  /* service page */
+  .services-banner-title h1 {
+    font-size: 20px;
+    margin-bottom: 5px;
+  }
+  .services-banner-description p {
+    font-size: 17px;
+    line-height: 30px;
+  }
+  .services-banner-bottom-laft h1 {
+    font-size: 20px;
+    font-weight: 500;
+  }
+  .services-banner-bottom-laft p {
+    color: rgb(65, 72, 77);
+    font-size: 17px;
+    line-height: 30px;
+  }
+  .services-banner-bottom-content-two {
+    flex-direction: column;
+  }
+  .services-banner-bottom-content-two .des-one,
+  .services-banner-bottom-content-two .des-two {
+    width: 100%;
+  }
+  .services-banner-bottom-content-two p {
+    font-size: 17px;
+    text-align: justify;
+  }
+  #services-tagline p {
+    font-size: 18px;
+    margin-bottom: 0;
+    line-height: 30px;
+  }
+  .form-details-content {
+    flex-direction: column;
+  }
+  .form-details-left,
+  .form-details-right {
+    width: 100%;
+  }
+  .dslc-text-module-content h2 {
+    font-size: 26px;
+    line-height: 30px;
+    margin-bottom: 8px;
+  }
+  .dslc-text-module-content h3 {
+    font-size: 17px;
+  }
+  .dslc-module-heading h2 {
+    font-size: 26px;
+  }
+  .dslc-testimonial-quote {
+    font-size: 17px;
+  }
+  /* about page */
+  .about-banner {
+    flex-direction: column;
+  }
+  .about-banner-left,
+  .about-banner-right {
+    width: 100%;
+  }
+  .about-banner-left h1 {
+    font-size: 28px;
+    line-height: 33px;
+    margin-bottom: 25px;
+  }
+  .about-banner-left h3 {
+    font-size: 20px;
+    line-height: 30px;
+    text-align: justify;
+  }
+  .about-details-content h1 {
+    font-size: 19px;
+    line-height: 30px;
+  }
+  .about-detail-description {
+    flex-direction: column;
+  }
+  .about-detail-des h1 {
+    font-size: 25px;
+  }
+  .about-detail-des p {
+    font-size: 19px;
+    line-height: 30px;
+    text-align: justify;
+  }
+  .about-detail-info-box ul {
+    flex-wrap: wrap;
+  }
+  .event-top ul {
+    flex-wrap: wrap;
+    gap: 20px;
+    text-align: center;
+  }
+  .event-top ul li {
+    flex-basis: 45%;
+    font-size: 20px;
+  }
+  .event-top ul li i {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .event-top ul li span {
+    font-size: 15px;
+  }
+  .event-bottom {
+    padding: 50px 0px;
+  }
+  .event-bottom h4 {
+    font-size: 16px;
+  }
+  /* blog page */
+  .blog-banner {
+    flex-direction: column;
+  }
+  .blog-banner-left,
+  .blog-banner-right {
+    width: 100%;
+  }
+  .blog-banner-left h1 {
+    font-size: 38px;
+    line-height: 45px;
+    margin-bottom: 25px;
+  }
+  .blog-banner-left h3 {
+    font-size: 20px;
+  }
+  .blog-banner-left h4 {
+    font-size: 22px;
+  }
+  .service-detail-info-box ul {
+    flex-wrap: wrap;
+  }
+  .service-detail-info-box ul li {
+    flex-basis: 45%;
+  }
+  .digital-marketing-service-boxs ul {
+    flex-wrap: wrap;
+  }
+  .digital-marketing-service-boxs ul li {
+    flex-basis: 45%;
+  }
+  .digital-marketing-service-content h2 {
+    font-size: 20px;
+    line-height: 30px;
+  }
+  .digital-marketing-service-boxs ul li h4 {
+    font-size: 15px;
+    width: 100%;
+    line-height: 25px;
+  }
+  .marketing-learn-more-content {
+    flex-wrap: wrap;
+  }
+  .marketing-learn-more-left,
+  .marketing-learn-more-right {
+    width: 100%;
+  }
+  .marketing-learn-more-right .dslc-button {
+    margin-top: 30px;
+  }
+  .marketing-learn-more-right h3 {
+    font-size: 15px;
+  }
+  .marketing-learn-more-right h2 {
+    font-size: 30px;
+    line-height: 36px;
+  }
+  .marketing-learn-more-right span {
+    font-size: 18px;
+    line-height: 30px;
+    text-align: justify;
+  }
+  .dslc-button a span {
+    font-size: 16px;
+  }
+  .seo-titles h4 {
+    font-size: 18px;
+  }
+  .seo-titles h2 {
+    font-size: 25px;
+    line-height: 28px;
+    margin-bottom: 25px;
+  }
+  .seo-titles p {
+    font-size: 18px;
+  }
+  .seo-box-description p {
+    font-size: 15px;
+    line-height: 23px;
+  }
+  .dslc-button {
+    margin-top: 0;
+  }
 }

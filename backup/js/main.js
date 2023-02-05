@@ -1,9 +1,6 @@
 (function ($) {
   "use strict";
   //mobile menu
-  $("li.has-mega-manu").click(function () {
-    $(this).children("ul.submenu").slideToggle(1000);
-  });
   $(".mobile_sidebar_close i").click(function () {
     $(".menu-area .menu nav").animate({
       width: 0,

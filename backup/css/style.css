@@ -404,15 +404,14 @@ header {
 .menu ul li ul.submenu {
   position: absolute;
   top: 120%;
-  width: 260px;
+  width: 200px;
   left: 0;
   color: #ffffff;
-  background-color: #1a2b55;
+  background-color: #1e1e1f;
   transition: 0.5s;
   opacity: 0;
   visibility: hidden;
   z-index: 9999;
-  border-radius: 3px;
 }
 
 .menu ul li:hover ul.submenu {
@@ -423,22 +422,12 @@ header {
 
 .menu ul li ul.submenu li {
   float: none;
-  padding: 15px 16px;
-  border-bottom: 1px solid;
-  margin: 0;
 }
 
 .menu ul li ul.submenu li a {
-  padding: 0;
+  padding: 10px;
   cursor: pointer;
   color: #ffffff;
-}
-.menu ul li ul.submenu li:hover {
-  background-color: #9161a2;
-  border-radius: 3px;
-}
-.menu ul li ul.submenu li:hover > a {
-  margin-left: 5px;
 }
 
 /* hero section */

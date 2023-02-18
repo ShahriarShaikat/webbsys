@@ -21,6 +21,12 @@
     meanScreenWidth: "992",
   });
 
+  //career
+  $(".career-option").accordion({
+    active: false,
+    collapsible: true,
+  });
+
   // One Page Nav
   var top_offset = $(".header-area").height() - 10;
   $(".main-menu nav ul").onePageNav({

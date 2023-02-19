@@ -1,0 +1,38 @@
+#section-page-banner {
+  width: 100%;
+  clear: both;
+  background-color: #ffffff;
+}
+.page-banner-content {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding-top: 50px;
+}
+.page-banner-icon {
+  display: flex;
+  justify-content: center;
+}
+.page-banner-icon img {
+  width: 400px;
+}
+.page-banner-title h1 {
+  color: #2a2e4a;
+  font-size: 65px;
+  font-weight: 600;
+  font-style: normal;
+  line-height: 70px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+.page-banner-description {
+  margin-bottom: 40px;
+}
+.page-banner-description p {
+  color: #575656;
+  font-size: 24px;
+  font-weight: 500;
+  font-style: normal;
+  line-height: 36px;
+  text-align: center;
+}

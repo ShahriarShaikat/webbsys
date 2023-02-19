@@ -164,14 +164,17 @@
     margin-bottom: 40px;
   }
   /* service page */
-  .services-banner-icon img {
+  .services-banner-icon img,
+  .page-banner-icon img {
     width: 350px;
   }
-  .services-banner-title h1 {
+  .services-banner-title h1,
+  .page-banner-title h1 {
     font-size: 20px;
     margin-bottom: 5px;
   }
-  .services-banner-description p {
+  .services-banner-description p,
+  .page-banner-description p {
     font-size: 17px;
     line-height: 30px;
   }
